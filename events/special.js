@@ -58,7 +58,7 @@ You can go to my website, support server or top.gg vote from the links below.`)
 
 if (message.content.startsWith(";eval")) {
       var args = message.content.split(" ").slice(1)
-  if (message.author.id !== "389071682649849868") return
+  if (message.author.id !== "YOUR ID") return
   let arguman = args.join(" ");
   if (!arguman) return
   let executedIn = process.hrtime();
