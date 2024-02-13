@@ -33,17 +33,14 @@ module.exports = {
         .addComponents(
             new ButtonBuilder()
             .setStyle(ButtonStyle.Link)
-            .setEmoji(emojidb_id.public)
             .setLabel("Website")
             .setURL("https://www.kittybot.me"),
             new ButtonBuilder()
             .setStyle(ButtonStyle.Link)
-            .setEmoji(emojidb_id.communityserver)
             .setLabel("Support Server")
             .setURL("https://discord.gg/TCWbk7zWY5"),
             new ButtonBuilder()
             .setStyle(ButtonStyle.Link)
-            .setEmoji(emojidb_id.upvote)
             .setLabel("Top.GG Vote")
             .setURL("https://top.gg/bot/1149967648248057897/vote")
         )
