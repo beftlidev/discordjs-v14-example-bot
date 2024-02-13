@@ -66,8 +66,8 @@ module.exports = {
         .addComponents(
           new ButtonBuilder()
           .setStyle(ButtonStyle.Link)
-          .setEmoji(emojidb_id.public)
-          .setURL("ENTER HERE THE URL OF YOUR BOT WITH 8 PERMS")
+            .setLabel("Invite Link")
+          .setURL("https://discord.com/api/oauth2/authorize?client_id=1149967648248057897&permissions=8&scope=applications.commands%20bot")
         )
 
         interaction.reply({ 
